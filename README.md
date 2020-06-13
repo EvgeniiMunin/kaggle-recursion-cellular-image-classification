@@ -1,13 +1,13 @@
 # Kaggle Recursion Cellular Image Classification Challenge
 
-The competition has an objective of image classification in experimantal noise of biological signals. Here the proposed algotihms detects different genetic perturbations.
+The competition has an objective of image classification in experimantal noise of biological signals. Here the proposed algorithms detects different genetic perturbations.
 
 ## Hardware/ Software
 - GPU: 1xTesla K80
-- Pytorch, albumentations
+- PyTorch, albumentations
 
 ## Training
-As the cellular images are origin from 4 types of experiments (HEPG2, HUVEC, RPE, U2OS) we have trained 4 different models in parallel for each experiment and then concatenated the predictions.
+As the cellular images have origin from 4 types of experiments (HEPG2, HUVEC, RPE, U2OS) we have trained 4 different models in parallel for each experiment and then concatenated the predictions.
 
 ## Solution
 The solution represents:
